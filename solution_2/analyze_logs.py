@@ -39,6 +39,8 @@ for line in file_handle:
                     total_term_sent[app_name] += int(term_sent)
                 else:
                     total_term_sent[app_name] = int(term_sent)
+                    
+file_handle.close()
 
 # Determine the length of the origsent and termsent columns
 for app in total_orig_sent:
