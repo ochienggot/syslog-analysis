@@ -13,4 +13,4 @@ Notes
 -----
 - The first command-line argument to the scripts, if present, is taken to be the filename. Both solutions default to the filename "syslog.txt" in the absence of a filename from the command-line. The scripts will fail with an error if no such file exists.
 - The scripts transparently ignore any command-line arguments after the first one i.e. calling the scripts with more than one argument produces no error, but the extraneous arguments are silently ignored.
-- Since the test asks to "output a table with three columns...", I have made the decision to simply display the table without writing the output to a file. The outputs can be redirected to a file should this be needed.
+- I have made the decision to simply display the table without writing the output to a file. The outputs can be redirected to a file should this be needed.
